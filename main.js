@@ -1,3 +1,9 @@
+
+function createCookie(nome, valor, expira){
+  var dtExpira = "expires=" +expira;
+  document.cookie = nome + "=" + valor + "; " + dtExpira
+}
+
 function post(url, body) {
   let request = new XMLHttpRequest();
   request.open("POST", url, true);
@@ -6,13 +12,12 @@ function post(url, body) {
 
   request.onload = function (event) {
     if (this.status === 200) {
-      setCookie('teste','teste',7);
-      console.log('documento', setCookie)
-      // window.location.href = "welcome.html"
+      createCookie("cname", "value", " Tue, 01 Jan 2030 12:00:00 UTC ");
+      window.location.href = "welcome.html";
     } else if (this.status == 404) {
-      console.log("Usuário não existe", this.status);
+      alert("Dados incorretos, por favor tente novamente")
     } else if (this.status == 401) {
-      console.log("Senha incorreta", this.status);
+      alert("Dados incorretos, por favor tente novamente")
     } else {
       console.log("Somthing wrong happen:", this.status);
     }
