@@ -1,5 +1,4 @@
 /* geral */
-
 * {
   margin: 0;
   padding: 0;
@@ -10,22 +9,23 @@
 }
 
 body {
-  background-image: url('../img/back.jpg');
-  
+  background-image: url("../img/back.jpg");
+
   background-size: cover;
   background-position-y: 50%;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline: none;
 }
 
 a {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 a:hover {
-  color: #08558B;
+  color: #08558b;
 }
 
 #myglobaldiv {
@@ -34,11 +34,9 @@ a:hover {
 }
 
 #login-img {
-
   margin-top: 15vh;
   margin-left: 110px;
 }
-
 
 /* container login */
 #login-container {
@@ -51,10 +49,22 @@ a:hover {
   border-radius: 10px;
   text-align: center;
   margin-bottom: 5vh;
-  /* display: inline-block; */
+  display: inline-block;
+  background-color: #fff;
 }
 
-
+#login-containedr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+  height: 400px;
+  padding: 30px 20px;
+  margin-top: 25vh;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 5vh;
+  display: inline-block;
+}
 
 /* formulário */
 form {
@@ -62,7 +72,8 @@ form {
   margin-bottom: 40px;
 }
 
-label, input {
+label,
+input {
   display: block;
   width: 100%;
   text-align: left;
@@ -70,7 +81,7 @@ label, input {
 
 label {
   font-weight: bold;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 input {
@@ -81,7 +92,7 @@ input {
 }
 
 input:focus {
-  border-bottom: 2px solid #08558B;
+  border-bottom: 2px solid #08558b;
 }
 
 #forgot-pass {
@@ -97,29 +108,24 @@ input[type="submit"] {
   border-radius: 20px;
   margin-top: 30px;
   cursor: pointer;
-  color: #FFF;
-  background-color: #08558B;
+  color: #fff;
+  background-color: #08558b;
   font-weight: bold;
 }
 
 input[type="submit"]:hover {
-  background-color: #1B223C;
-  transition: .5s;
+  background-color: #1b223c;
+  transition: 0.5s;
 }
 
 /* redes sociais */
 
-
-
-
-
-
 .fa-facebook-f {
-  background-color: #3B5998;
+  background-color: #3b5998;
 }
 
 .fa-linkedin {
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 
 /* registrar */
