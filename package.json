@@ -1,0 +1,15 @@
+{
+  "name": "front-js-login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/biacrisg/front-js-login.git",
+  "author": "Beatriz Gonçalves <68661352+biacrisg@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  }
+}
